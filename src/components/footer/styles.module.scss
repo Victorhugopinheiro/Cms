@@ -1,0 +1,73 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 30px 0px;
+
+}
+
+.contato{
+    text-align: center;
+    color: white;
+}
+
+.section {
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.control{
+    color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr ;
+    color: white;
+}
+
+.contentFooter{
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.divButton{
+    margin-bottom: 50px;
+    background-color: rgb(6, 219, 6);
+    padding: 8px 24px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.4s;
+}
+
+.button{
+color: white;
+}
+
+.divButton:hover{
+    transform: scale(1.09);
+}
+
+@media (min-width:780px){
+
+    .section{
+        width: 60%;
+    }
+
+    .control{
+        
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

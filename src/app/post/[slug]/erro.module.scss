@@ -1,0 +1,26 @@
+.section {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+
+    h1{
+        font-size: 35px;
+    }
+
+    a{
+        background-color: rgb(4, 4, 53);
+        color: white;
+        padding: 15px 35px;
+        font-size: 18px;
+        border-radius: 4px;
+        transition: all 0.4s;
+    }
+
+    a:hover{
+        transform: scale(1.09);
+    }
+}
